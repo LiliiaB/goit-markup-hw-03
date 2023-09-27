@@ -8,8 +8,10 @@ body {
 
 ul {
     list-style-type: none; 
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
+    list-style:none;
    }
 
    h1, h2, h3, p {
@@ -28,7 +30,7 @@ img {
 
  /*-- header --*/
 
- .container .header-main {
+.container .header{
     display:flex;
     gap: 12px;
     flex-wrap: wrap;
