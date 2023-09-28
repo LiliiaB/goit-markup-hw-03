@@ -38,7 +38,15 @@ img {
         display:flex;
         gap: 12px;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
  }
+
+ .nav-menu {
+    display:flex;
+    align-items:center;
+    gap:40px;
+    }
 
  .nav-menu-logo {
   font-family:'Raleway', sans-serif;  
@@ -50,7 +58,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-
+ 
   }
   .nav-menu-span {
     color:#2e2f42;  
@@ -61,16 +69,10 @@ img {
     color: #404BBF;  
     }
 
-.nav-menu {
-    display:flex;
-    align-items:center;
-    gap:40px;
-    }
- 
  .nav-menu-list  {
     display:flex;
     align-items:center;
-    gap: 8px;
+    gap: 40px;
     }
 
 .nav-menu-item {
@@ -111,9 +113,9 @@ img {
 /*-- section 1 --*/
 
 .section-main {
+    padding: 188px 0;
     background-color: #2E2F42;
     color:#FFF;
-    padding: 188px 0;
 }
 
 .section-main-title {
@@ -168,13 +170,13 @@ button:focus {
          }
 .section-strength-list {
     display: flex;
+    justify-content:space-evenly;
     gap: 24px;
    }
  
-  .section-strengh-list-items {
+  .section-strength-list-items {
     width: calc((100% - 72px) / 4);
     }
-
 
 .section-strength-title {
     font-size: 20px;
@@ -260,7 +262,7 @@ button:focus {
 
   .section-portfolio-list {
 display: flex;
-flex-wrap: wrap;
+
 column-gap: 24px;
 row-gap: 48px;
 width: calc((100% - 48px) / 3);
