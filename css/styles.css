@@ -36,10 +36,8 @@ img {
 
 .header-main-container {
         display:flex;
-        gap: 12px;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        align-items:center;
+
  }
 
  .nav-menu {
@@ -81,6 +79,7 @@ img {
     line-height: 1.5;
     font-size: 16px;
     padding: 24px 0;   
+    display: block;
  }
  
 .nav-menu-item:focus,
@@ -88,10 +87,17 @@ img {
  {
     color: #404BBF;   
 }
+
+.site-contacts  {
+    margin-left: auto;
+}
+
+
 .site-contacts-list  {
    font-style: normal;
    display:flex; 
    gap: 40px;
+   margin-left: auto;
   }
 
 .site-contacts-item {
@@ -125,6 +131,7 @@ img {
     text-align: center;
     margin: 0 auto;
     max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .order-button {
@@ -212,13 +219,14 @@ button:focus {
  }
 .section-team-list {
     display:flex;
-    background-color: #FFFFFF;
+
     gap: 24px;
 }
 
 .section-team-list-item {
     width: calc((100% - 72px) / 4); 
     border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 }
 
 .name-and-job-title {
@@ -302,7 +310,7 @@ row-gap: 48px;
     color: #F4F4FD;
     padding: 100px 0;
 }
-.nav-menu-logo {
+.bottom-logo {
     display: inline-block;
     margin-bottom: 16px; 
 } 
